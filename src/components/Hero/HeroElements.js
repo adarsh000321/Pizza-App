@@ -7,12 +7,13 @@ export const HeroContainer = styled.div`
     height: 100vh;
     background-position: center;
     background-size: cover;
+    /* width: 100vw; */
 `
 
 export const HeroContent = styled.div`
     height: calc(100vh - 80px); /* Add spaces around the - sign*/
     max-height: 100%;
-    width: 100vw;
+    /* width: 100vw; */
     padding: 0rem calc((100vw - 1300px)/2);
 `
 
@@ -30,7 +31,7 @@ export const HeroItems = styled.div`
     line-height: 1;
     font-weight: bold;
 
-    @media screen and (max-widht: 650px) {
+    @media screen and (max-width: 650px) {
         width: 100%;
     }
 `
